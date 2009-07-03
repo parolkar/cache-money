@@ -2,12 +2,12 @@ Gem::Specification.new do |s|
   s.name     = "cache-money"
   s.version  = "0.2.5"
   s.date     = "2008-11-24"
-  s.summary  = "Write-through and Read-through Cacheing for ActiveRecord"
-  s.email    = "nick@twitter.com"
+  s.summary  = "[This is Fork] Write-through and Read-through Cacheing for ActiveRecord"
+  s.email    = "abhishek@parolkar.com"
   s.homepage = "http://github.com/nkallen/cache-money"
   s.description = "Cache utilities."
   s.has_rdoc = false
-  s.authors  = ["Nick Kallen"]
+  s.authors  = ["Nick Kallen","Abhishek Parolkar"]
   s.files    = [
     "README",
     "TODO",

@@ -112,7 +112,7 @@ module Cash
     def initialize(name, key, *args)
       @name = name
       @key = key
-      @args = args
+      @args = *args
     end
 
     def requires_lock?
@@ -120,7 +120,7 @@ module Cash
     end
 
     def call(cache)
-      cache.send @name, @key, *@args
+      cache.send @name, @key, @args
     end
   end
 end
